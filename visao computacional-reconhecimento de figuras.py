@@ -3,8 +3,7 @@ import cv2 # processa imagens
 import pandas as pd # manipulação de dados
 from easyocr import Reader # reconhecimento de textos em imagens
 
-video = cv2.VideoCapture(1)
-
+video = cv2.VideoCapture(0)
 
 # variaveis dos textos que serão mostrados na tela
 texto = ''
